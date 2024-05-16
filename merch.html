@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Las aventuras de Lobo</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+	<header>
+		<a href="#" class="logo">
+			<img src="img/logo_diente.png" alt="el logo" class="logo-img">
+			<h2 class="nombre-empresa">Diente de León</h2>			
+		</a>
+
+		<nav>
+			<a href="index.html" >Inicio</a>
+			<a href="aprende.html" >Aprende</a>
+			<a href="libro.html">Libro</a>
+			<a href="merch.html" class="active">Merch</a>
+		</nav>
+	</header>
+
+	<div class="header2">
+		<h1>Tienda </h1>
+
+		<div class="container-icon">
+			<svg xmlns="http://www.w3.org/2000/svg" 
+			class="icon-cart"
+			viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M160 112c0-35.3 28.7-64 64-64s64 28.7 64 64v48H160V112zm-48 48H48c-26.5 0-48 21.5-48 48V416c0 53 43 96 96 96H352c53 0 96-43 96-96V208c0-26.5-21.5-48-48-48H336V112C336 50.1 285.9 0 224 0S112 50.1 112 112v48zm24 48a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm152 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"/>
+			</svg>
+
+			<div class="count-products">
+				<span id="contador-productos">1</span>
+			</div>
+
+			<div class="container-cart-products hidden-cart">
+				<div class="cart-product">
+					<div class="info-cart-product">
+						<span class="cantidad-producto-carrito">2</span>
+						<p class="titulo-producto-carrito">Cuaderno dibujo</p>
+						<span class="precio-producto-carrito">$380</span>
+					
+					</div>	
+					
+
+					<svg xmlns="http://www.w3.org/2000/svg" 
+					class="icon-close" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M376.6 84.5c11.3-13.6 9.5-33.8-4.1-45.1s-33.8-9.5-45.1 4.1L192 206 56.6 43.5C45.3 29.9 25.1 28.1 11.5 39.4S-3.9 70.9 7.4 84.5L150.3 256 7.4 427.5c-11.3 13.6-9.5 33.8 4.1 45.1s33.8 9.5 45.1-4.1L192 306 327.4 468.5c11.3 13.6 31.5 15.4 45.1 4.1s15.4-31.5 4.1-45.1L233.7 256 376.6 84.5z"/>
+					</svg>					
+				</div>
+				<div class="cart-total">
+					<h3>Total:</h3>
+					<span class="total-pagar">$200</span>
+				</div>
+
+
+			</div>
+		</div>
+
+	</div><!-- header -->
+
+	</div>
+
+	<!-- fin header 2 -->
+
+	<div class="container-items">
+		<div class="item2">
+			<figure>
+				<img src="img/book.jpg" alt="producto" >
+			</figure>
+			<div class="info-product">
+				<h2>Cuaderno de dibujo</h2>
+				<p class="price">$380</p>
+				<button>Añadir al carrito</button>
+			</div>
+		</div>
+		<div class="item2">
+			<figure>
+				<img src="img/merch2.png" alt="producto" >
+			</figure>
+			<div class="info-product">
+				<h2>Peluche Ajolote</h2>
+				<p class="price">$500</p>
+				<button>Añadir al carrito</button>
+			</div>
+		</div>
+		<div class="item2">
+			<figure>
+				<img src="img/merch3.jpg" alt="producto" >
+			</figure>
+			<div class="info-product">
+				<h2>Cuaderno de tareas</h2>
+				<p class="price">$450</p>
+				<button>Añadir al carrito</button>
+			</div>
+		</div>
+
+		<div class="item2">
+			<figure>
+				<img src="img/merch4.png" alt="producto" >
+			</figure>
+			<div class="info-product">
+				<h2>Peluche Zacatuche</h2>
+				<p class="price">$250</p>
+				<button>Añadir al carrito</button>
+			</div>
+		</div>
+		<div class="item2">
+			<figure>
+				<img src="img/merch5.png" alt="producto" >
+			</figure>
+			<div class="info-product">
+				<h2>Peluche Oso</h2>
+				<p class="price">$300</p>
+				<button>Añadir al carrito</button>
+			</div>
+		</div>
+		<div class="item2">
+			<figure>
+				<img src="img/merch6.jpg" alt="producto" >
+			</figure>
+			<div class="info-product">
+				<h2>Peluche Lobo</h2>
+				<p class="price">$700</p>
+				<button>Añadir al carrito</button>
+			</div>
+		</div>
+
+	</div>
+
+	
+	<script src="merch.js" type="text/javascript"></script>
+</body>
+
+
+
+</html>
